@@ -11,4 +11,9 @@ public class WebController {
 	public String main(Model model) {
 		return "index";
 	}
+
+	@RequestMapping("/enquiry")
+	public String enquiry(Model model) {
+		return "enquiry";
+	}
 }
